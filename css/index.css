@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(43, 255, 0);
+  font-size: 1.7rem;
+}
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 2px solid rgb(43, 255, 0);
+  margin: 2em;
+}
+tr > th {
+  text-align: center;
+
+  padding-top: 1em;
+}
+
+td > p {
+  padding: 1em;
+}
+#playerResult,
+#computerResult {
+  padding-left: 2em;
+  border-top: 2px solid rgb(43, 255, 0);
+}
+
+#player,
+#comp {
+  text-transform: uppercase;
+}
+button {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(43, 255, 0);
+  border: 2px solid rgb(43, 255, 0);
+}
+#result {
+  padding-top: 1em;
+}
